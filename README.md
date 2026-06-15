@@ -1,6 +1,6 @@
 # 📊 Observatório de Dados e Apoio à Prevenção do Suicídio
 
-Este projeto é uma **plataforma de conscientização, visualização de dados e apoio emocional** relacionada à prevenção do suicídio, desenvolvida por alunos da UFSC.
+Este projeto é uma **plataforma de conscientização e visualização de dados** relacionada à prevenção do suicídio, desenvolvida pelo Laboratório de Neurociência Translacional da UFSC.
 
 ---
 
@@ -23,22 +23,12 @@ Foco na análise e visualização de dados reais:
 
 ---
 
-### 2. 💬 Apoio emocional
-
-O sistema também busca oferecer um ambiente seguro e acolhedor:
-
-- Mensagens de apoio e conscientização
-- Divulgação do CVV (188)
-- Incentivo à busca de ajuda profissional
-- Linguagem cuidadosa, sem sensacionalismo
-
----
 
 ### 3. 🎓 Contexto acadêmico (UFSC)
 
 Projeto desenvolvido no ambiente acadêmico:
 
-- Alunos da UFSC
+- Discentes da UFSC
 - Vinculado a atividades de pesquisa e extensão
 - Uso de dados públicos
 - Finalidade educativa e científica
