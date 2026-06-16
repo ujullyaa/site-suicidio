@@ -1,8 +1,8 @@
 import express from 'express'
 import cors from 'cors'
 import ajudaRoutes from './routes/ajuda'
-import dadosRoutes from './routes/dados' // Importamos o arquivo de dados apenas uma vez
-
+import dadosRoutes from './routes/dados' 
+import taxasRoutes from './routes/taxas' 
 const app = express()
 
 app.use(cors())
@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
 app.use('/ajuda', ajudaRoutes)
 app.use('/dados', dadosRoutes) 
 app.use(dadosRoutes) 
+app.use('/taxas', taxasRoutes) 
 app.listen(5000, () => {
   console.log('Servidor rodando em http://localhost:5000')
 })
