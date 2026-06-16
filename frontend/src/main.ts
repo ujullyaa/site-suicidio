@@ -51,6 +51,12 @@ app.innerHTML = `
 
     </div>
   </section>
+
+  <div style="display: flex; justify-content: center; margin-top: 40px; padding-bottom: 50px;">
+    <a href="/graficos.html" style="background-color: #334155; color: #f8fafc; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-family: sans-serif; font-size: 16px;">
+      📊 Ver Estatísticas e Dados
+    </a>
+  </div>
 `
 
 document.getElementById('btnAjuda')?.addEventListener('click', () => {

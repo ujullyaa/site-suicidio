@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estatísticas - Suicídio</title>
+  </head>
+  <body style="background-color: #0f172a; margin: 0; padding: 30px; font-family: sans-serif;">
+    
+    <a href="/" style="color: #cbd5e1; text-decoration: none; display: inline-block; margin-bottom: 30px; font-size: 16px;">
+      ← Voltar para o Início
+    </a>
+
+    <h2 style="text-align: center; color: #f8fafc; margin-bottom: 40px;">Painel de Dados (2000 - 2024)</h2>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+      
+      <div style="background-color: #1e293b; padding: 20px; border-radius: 8px;">
+        <h3 style="text-align: center; color: #f8fafc; margin-bottom: 20px;">Evolução por Ano</h3>
+        <canvas id="graficoEvolucao"></canvas>
+      </div>
+
+      <div style="background-color: #1e293b; padding: 20px; border-radius: 8px;">
+        <h3 style="text-align: center; color: #f8fafc; margin-bottom: 20px;">Distribuição por Gênero</h3>
+        <canvas id="graficoGenero"></canvas>
+      </div>
+
+      <div style="background-color: #1e293b; padding: 20px; border-radius: 8px;">
+        <h3 style="text-align: center; color: #f8fafc; margin-bottom: 20px;">Casos por Faixa Etária</h3>
+        <canvas id="graficoIdade"></canvas>
+      </div>
+
+      <div style="background-color: #1e293b; padding: 20px; border-radius: 8px;">
+        <h3 style="text-align: center; color: #f8fafc; margin-bottom: 20px;">Casos por Estado Civil</h3>
+        <canvas id="graficoEstadoCivil"></canvas>
+      </div>
+
+    </div>
+
+    <script type="module" src="/src/graficos.ts"></script>
+  </body>
+</html>
