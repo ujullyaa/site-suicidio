@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxas de Mortalidade</title>
+  </head>
+  <body style="background-color: #0f172a; margin: 0; padding: 30px; font-family: sans-serif;">
+    
+    <div style="margin-bottom: 30px;">
+      <a href="/" style="color: #cbd5e1; text-decoration: none; display: inline-block; margin-right: 20px;">
+        ← Voltar para o Início
+      </a>
+      <a href="/graficos.html" style="color: #94a3b8; text-decoration: none; display: inline-block;">
+        Ver Números Absolutos
+      </a>
+    </div>
+
+    <h2 style="text-align: center; color: #f8fafc; margin-bottom: 10px;">Taxas por 100 mil habitantes</h2>
+    <p style="text-align: center; color: #94a3b8; margin-bottom: 40px;">Evolução de 2000 a 2024 separada por categorias</p>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: 40px; max-width: 900px; margin: 0 auto;">
+      
+      <div style="background-color: #1e293b; padding: 20px; border-radius: 8px;">
+        <h3 style="text-align: center; color: #f8fafc; margin-bottom: 20px;">Taxa Geral no Brasil</h3>
+        <canvas id="taxaGeral"></canvas>
+      </div>
+
+      <div style="background-color: #1e293b; padding: 20px; border-radius: 8px;">
+        <h3 style="text-align: center; color: #f8fafc; margin-bottom: 20px;">Taxa Comparativa por Sexo</h3>
+        <canvas id="taxaSexo"></canvas>
+      </div>
+
+      <div style="background-color: #1e293b; padding: 20px; border-radius: 8px;">
+        <h3 style="text-align: center; color: #f8fafc; margin-bottom: 20px;">Taxa por Faixa Etária</h3>
+        <canvas id="taxaIdade"></canvas>
+      </div>
+
+    </div>
+
+    <script type="module" src="/src/taxas.ts"></script>
+  </body>
+</html>
